@@ -273,7 +273,8 @@ main > section:first-child {
 
 // SECCIÓN NOSOTROS
 #nosotros {
-    padding: 6rem 0;
+    padding: 2rem 0;
+    padding-bottom: 0;
     background: var(--bg-light);
 
     > h2 {
@@ -309,13 +310,11 @@ main > section:first-child {
 }
 
 .img-objetivos {
-    gap: 1rem;
+    
     justify-content: center;
 
     img {
-        flex: 1;
-        max-width: 500px;
-        border-radius: 15px;
+        width: 50%;
         @include shadow();
     }
 }
@@ -392,15 +391,14 @@ main > section:first-child {
 }
 
 .images-destinos {
-    gap: 1rem;
+    gap: .5rem;
     justify-content: center;
 
     img {
         flex: 1;
-        max-width: 400px;
-        height: 300px;
+        max-width: 33%;
+        height: 400px;
         object-fit: cover;
-        border-radius: 15px;
         @include shadow();
         @include transition(transform);
 
